@@ -1,0 +1,78 @@
+.nav-bar {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: #555;
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: radial-gradient(#ffd6d6, #fff); /*);*/
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.c2 img {
+  flex-basis: 50%;
+  float: right;
+  padding: 50px 0;
+}
+.exp {
+  display: inline-block;
+  border-radius: 20px;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  background: #ff523b;
+}
+.trend {
+  margin: 70px 0;
+  display: table;
+  width: 100%;
+  border-spacing: 40px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-header {
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 1.5em;
+}
+.item {
+  width: calc(100% / 6);
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 6px;
+  box-shadow: 0 0 16px #333;
+  transition: all 1.5s ease;
+  text-align: center;
+  margin: 2%;
+  padding: 20px;
+}
+.item-img {
+  width: 100%;
+}

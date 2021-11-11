@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 13px 5%;
+        }
+        .left {
+            background: #cbdffa;
+            flex-basis: 25%;
+            position: sticky;
+            top: 70px;
+            align-self: flex-start;
+        }
+        .right {
+            background: #cbdffa;
+            flex-basis: 25%;
+            position: sticky;
+            top: 70px;
+            align-self: flex-start;
+        }
+        nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #1876f2;
+        padding: 5px 5%;
+        }
+        .nav-left,
+        .nav-right {
+        display: flex;
+        align-items: center;
+        }
+        .info{
+        border-left: thick solid #00000f;
+        }
+    </style>
+</head>
+<body>
+    <!--<div class="container">
+        <div class="left">
+            <h1>Welcome to Shopify George!!</h1>
+        </div>
+        <div class="right">
+            <p>Your mail id: hello@gmail.com</p>
+            <br><br>
+            <p>Your Mobile Number : 9597424654</p>
+        </div>
+    </div>--->
+    <nav>
+        <div class="nav-left">
+            <h1>Welcome to Shopify George!!</h1>
+        </div>
+        <div class="nav-right">
+            <div class="info">
+                <p>&nbsp;  Your mail id: hello@gmail.com</p>
+                <p>&nbsp;  Your Mobile Number : 9597424654</p>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
